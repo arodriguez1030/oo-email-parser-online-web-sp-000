@@ -6,10 +6,6 @@
 class EmailAddressParser
   attr_accessor :email_addresses
   
-  def intialize
-    @email = email
-    parse
-  end
   
   def parse
     email_array = @email.split(', ').uniq
